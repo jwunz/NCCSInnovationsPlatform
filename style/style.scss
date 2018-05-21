@@ -1,14 +1,24 @@
+$NU_Warm_Grey_Med: #BAB0A5;
+$NU_Logo_Grey: #2B2929;
+$NU_Black: #000000;
+$NU_Orange: #EA9919;
+$NU_Yellow: #FFCC00;
+
 @font-face{
     font-family: DIN;
     src: 'font/DIN Light Regular.otf';
 }
 
 * {
-    border: 1px solid black;
+    border: 1px solid $NU_Black;
+}
+
+html {
+    background-color: $NU_Logo_Grey;
 }
 
 .nav-wrapper {
-    background-color: black;
+    background-color: $NU_Black;
 }
 .nav-logo{
     float: left;
@@ -31,14 +41,20 @@ body {
     padding-left: 0;
 }
 .nav-item-content{
-    background-color: #fec123;
+    background-color: $NU_Yellow;
     float: left;
     margin: 0 0 0 5px;
     padding: 15px 0;
     text-transform: uppercase;
     font-family: 'DIN';
-    color: black;
+    color: $NU_Black;
     text-decoration: none;
     width: 100px;
     height: 70px;
+}
+
+.main-container {
+    display: flex;
+    width: 60%;
+
 }

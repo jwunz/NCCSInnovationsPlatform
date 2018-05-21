@@ -2,10 +2,13 @@
   font-family: DIN;
   src: 'font/DIN Light Regular.otf'; }
 * {
-  border: 1px solid black; }
+  border: 1px solid #000000; }
+
+html {
+  background-color: #2B2929; }
 
 .nav-wrapper {
-  background-color: black; }
+  background-color: #000000; }
 
 .nav-logo {
   float: left; }
@@ -27,15 +30,19 @@ body {
   padding-left: 0; }
 
 .nav-item-content {
-  background-color: #fec123;
+  background-color: #FFCC00;
   float: left;
   margin: 0 0 0 5px;
   padding: 15px 0;
   text-transform: uppercase;
   font-family: 'DIN';
-  color: black;
+  color: #000000;
   text-decoration: none;
   width: 100px;
   height: 70px; }
+
+.main-container {
+  display: flex;
+  width: 60%; }
 
 /*# sourceMappingURL=style.css.map */
