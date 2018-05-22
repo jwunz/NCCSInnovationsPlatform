@@ -1,6 +1,6 @@
 $NU_Warm_Grey_Med: #BAB0A5;
 $NU_Logo_Grey: #2B2929;
-$NU_Black: #000000;
+$Supported_Black: #000000;
 $NU_Orange: #EA9919;
 $NU_Yellow: #FFCC00;
 
@@ -9,8 +9,13 @@ $NU_Yellow: #FFCC00;
     src: 'font/DIN Light Regular.otf';
 }
 
+@font-face {
+    font-family: DIN-bold;
+    src: 'font/DIN Bold.otf';
+}
+
 * {
-    border: 1px solid $NU_Black;
+    border: 1px solid $Supported_Black;
 }
 
 html {
@@ -18,7 +23,10 @@ html {
 }
 
 .nav-wrapper {
-    background-color: $NU_Black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: $Supported_Black;
     padding: 7px;
 }
 
@@ -55,7 +63,7 @@ html {
     text-transform: uppercase;
     font-family: 'DIN';
     font-weight: bold;
-    color: $NU_Black;
+    color: $Supported_Black;
     text-decoration: none;
     width: 100px;
     height: 70px;
@@ -67,6 +75,27 @@ body {
 
 .main-container {
     display: flex;
-    width: 60%;
+    flex-direction: column;
+    width: 70%;
+    padding: 0 20px;
     margin: auto;
+    background-color: $NU_Warm_Grey_Med;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'DIN';
+    font-weight: bold;
+    color: $Supported_Black;
+    text-decoration: none;
+
+    &>strong {
+        font-family: 'DIN-bold'
+    }
+}
+
+.landing-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 0 35px;
 }

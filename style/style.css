@@ -1,6 +1,9 @@
 @font-face {
   font-family: DIN;
   src: 'font/DIN Light Regular.otf'; }
+@font-face {
+  font-family: DIN-bold;
+  src: 'font/DIN Bold.otf'; }
 * {
   border: 1px solid #000000; }
 
@@ -8,6 +11,9 @@ html {
   background-color: #2B2929; }
 
 .nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   background-color: #000000;
   padding: 7px; }
 
@@ -50,7 +56,24 @@ body {
 
 .main-container {
   display: flex;
-  width: 60%;
-  margin: auto; }
+  flex-direction: column;
+  width: 70%;
+  padding: 0 20px;
+  margin: auto;
+  background-color: #BAB0A5; }
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'DIN';
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none; }
+  h1 > strong {
+    font-family: "DIN-bold"; }
+
+.landing-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0 0 0 35px; }
 
 /*# sourceMappingURL=style.css.map */
