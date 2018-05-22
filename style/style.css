@@ -8,7 +8,8 @@ html {
   background-color: #2B2929; }
 
 .nav-wrapper {
-  background-color: #000000; }
+  background-color: #000000;
+  padding: 7px; }
 
 .nav-logo {
   float: left; }
@@ -17,8 +18,8 @@ html {
   width: 100px;
   height: auto; }
 
-body {
-  margin: 0; }
+.nav-icon {
+  max-height: 50px; }
 
 .nav-buttons > ul {
   display: flex;
@@ -40,6 +41,9 @@ body {
   text-decoration: none;
   width: 100px;
   height: 70px; }
+
+body {
+  margin: 0; }
 
 .main-container {
   display: flex;

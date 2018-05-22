@@ -19,18 +19,22 @@ html {
 
 .nav-wrapper {
     background-color: $NU_Black;
+    padding: 7px;
 }
+
 .nav-logo{
     float: left;
 }
+
 .nav-logo>a>img{
     width: 100px;
     height: auto;
 }
 
-body {
-    margin: 0;
+.nav-icon {
+    max-height: 50px;
 }
+
 .nav-buttons>ul{
     display: flex;
     flex-direction: row;
@@ -40,6 +44,7 @@ body {
     margin: 0;
     padding-left: 0;
 }
+
 .nav-item-content{
     background-color: $NU_Yellow;
     float: left;
@@ -51,6 +56,10 @@ body {
     text-decoration: none;
     width: 100px;
     height: 70px;
+}
+
+body {
+    margin: 0;
 }
 
 .main-container {
