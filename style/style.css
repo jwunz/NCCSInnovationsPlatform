@@ -19,12 +19,14 @@ html {
   height: auto; }
 
 .nav-icon {
-  max-height: 50px; }
+  max-height: 50px;
+  margin-top: 5px; }
 
 .nav-buttons > ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-content: center;
   text-align: center;
   list-style: none;
   margin: 0;
@@ -37,6 +39,7 @@ html {
   padding: 15px 0;
   text-transform: uppercase;
   font-family: 'DIN';
+  font-weight: bold;
   color: #000000;
   text-decoration: none;
   width: 100px;
