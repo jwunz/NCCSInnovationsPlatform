@@ -50,6 +50,7 @@ body {
 
 .main-container {
   display: flex;
-  width: 60%; }
+  width: 60%;
+  margin: auto; }
 
 /*# sourceMappingURL=style.css.map */
