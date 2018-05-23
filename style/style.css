@@ -119,4 +119,22 @@ button {
   padding: 7px;
   margin: 15px; }
 
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 7px;
+  font-family: 'DIN';
+  font-weight: normal; }
+
+table {
+  width: 100%;
+  margin-bottom: 7px; }
+
+th {
+  text-align: left;
+  background: #FFCC00; }
+
+td {
+  background: #D8CFC6; }
+
 /*# sourceMappingURL=style.css.map */
