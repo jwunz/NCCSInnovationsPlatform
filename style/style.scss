@@ -106,7 +106,10 @@ h1 {
     background-image: url("../imgs/room201.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    max-width: 681px;
+    min-width: 681px;
+    max-height: 454px;
+    min-height: 454px;
     flex-shrink: 1;
     height: auto;
     border-radius: 0 0 0 45px;
@@ -196,4 +199,16 @@ a {
     border-radius: 35px 0 0 0;
     padding: 7px;
     margin: 15px;
+}
+
+@media only screen and (max-width: 1490px){
+    .index-content{
+        flex-direction: column;
+    }
+
+    .landing-image {
+        align-self: center;
+        min-width: 0;
+        width: 100%;
+    }
 }
