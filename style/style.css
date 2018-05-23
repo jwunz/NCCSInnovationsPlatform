@@ -1,9 +1,11 @@
 @font-face {
   font-family: DIN;
-  src: 'font/DIN Light Regular.otf'; }
+  src: '../font/DIN Light Regular.otf';
+  font-weight: normal; }
 @font-face {
-  font-family: DIN-bold;
-  src: 'font/DIN Bold.otf'; }
+  font-family: DIN;
+  src: '../font/DIN Bold.otf';
+  font-weight: bold; }
 * {
   border: 1px solid #000000; }
 
@@ -69,11 +71,36 @@ h1 {
   color: #000000;
   text-decoration: none; }
   h1 > strong {
-    font-family: "DIN-bold"; }
+    font-family: 'DIN';
+    font-weight: bold; }
 
 .landing-image {
   width: 100%;
   height: auto;
   border-radius: 0 0 0 35px; }
+
+h2 {
+  font-family: 'DIN';
+  font-weight: bold; }
+
+p {
+  font-family: 'DIN';
+  font-weight: normal; }
+
+button {
+  font-family: 'DIN';
+  font-weight: normal;
+  font-size: 16px;
+  background: #EA9919;
+  border: none;
+  padding: 3px;
+  width: 10%;
+  margin: 1%; }
+
+.postContainer {
+  background: #D8CFC6;
+  border-radius: 0 35px 0 0;
+  padding: 7px;
+  margin: 15px; }
 
 /*# sourceMappingURL=style.css.map */
