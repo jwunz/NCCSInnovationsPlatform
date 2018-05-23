@@ -4,6 +4,7 @@ $Supported_Black: #000000;
 $NU_Orange: #EA9919;
 $NU_Yellow: #FFCC00;
 $NU_Warm_Grey_Lt: #D8CFC6;
+$NU_Warm_Grey_Dk: #998B7D;
 
 @font-face{
     font-family: DIN;
@@ -146,4 +147,25 @@ button {
     border-radius: 0 35px 0 0;
     padding: 7px;
     margin: 15px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 7px;
+    font-family: 'DIN';
+    font-weight: normal;
+}
+table {
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+th{
+    text-align: left;
+    background: $NU_Yellow;
+}
+
+td{
+    background: $NU_Warm_Grey_Lt;
 }
