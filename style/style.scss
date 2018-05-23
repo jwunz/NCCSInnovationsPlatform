@@ -169,3 +169,15 @@ th{
 td{
     background: $NU_Warm_Grey_Lt;
 }
+
+.projectContainer {
+    background: $NU_Warm_Grey_Lt;
+    border-radius: 0 35px 0 0;
+    padding: 7px;
+    margin: 15px;
+}
+
+h3 {
+    font-family:'DIN';
+    font-weight: bold;
+}

@@ -132,4 +132,14 @@ th {
 td {
   background: #D8CFC6; }
 
+.projectContainer {
+  background: #D8CFC6;
+  border-radius: 0 35px 0 0;
+  padding: 7px;
+  margin: 15px; }
+
+h3 {
+  font-family: 'DIN';
+  font-weight: bold; }
+
 /*# sourceMappingURL=style.css.map */
