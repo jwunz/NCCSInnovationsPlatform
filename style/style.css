@@ -147,4 +147,11 @@ h3 {
   font-family: 'DIN';
   font-weight: bold; }
 
+div {
+  font-family: 'DIN'; }
+
+a {
+  font-family: 'DIN';
+  text-decoration: none; }
+
 /*# sourceMappingURL=style.css.map */
