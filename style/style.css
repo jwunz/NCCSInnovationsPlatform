@@ -137,4 +137,11 @@ th {
 td {
   background: #D8CFC6; }
 
+div {
+  font-family: 'DIN'; }
+
+a {
+  font-family: 'DIN';
+  text-decoration: none; }
+
 /*# sourceMappingURL=style.css.map */
