@@ -18,10 +18,6 @@ $NU_Warm_Grey_Dk: #998B7D;
     font-weight: bold;
 }
 
-* {
-    border: 1px solid $Supported_Black;
-}
-
 html {
     background-color: $NU_Logo_Grey;
 }
@@ -63,7 +59,7 @@ html {
     background-color: $NU_Yellow;
     float: left;
     margin: 0 0 0 5px;
-    padding: 15px 0;
+    padding: 15px 7px;
     border-radius: 0 0 25px 0;
     text-transform: uppercase;
     font-family: 'DIN';
@@ -193,4 +189,11 @@ div {
 a {
     font-family: 'DIN';
     text-decoration: none;
+}
+
+.adContainer {
+    background: $NU_Warm_Grey_Lt;
+    border-radius: 35px 0 0 0;
+    padding: 7px;
+    margin: 15px;
 }
